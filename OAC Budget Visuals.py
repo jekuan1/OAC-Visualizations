@@ -156,7 +156,7 @@ ax3.bar(
 )
 ax3.set_ylabel("$$$")
 ax3.set_title("Revenue and Expenses Bar Chart")
-ax3.legend()
+ax3.legend(loc="upper left", bbox_to_anchor=(1, 1))
 
 
 # TODO separate cost of murphys
